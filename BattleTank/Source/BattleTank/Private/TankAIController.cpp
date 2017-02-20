@@ -35,7 +35,6 @@ void ATankAIController::Tick(float DeltaTime)
 		GetControlledTank()->AimAt(GetPlayerTank()->GetActorLocation());
 
 		// TODO fire if ready
-
 	}
 }
 
